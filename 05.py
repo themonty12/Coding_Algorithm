@@ -35,40 +35,99 @@
 # "fro???"는 "frozen"에 매치되므로 1입니다.
 # "pro?"는 매치되는 가사 단어가 없으므로 0 입니다.
 
-def solution(words, queries):    
-    dict_queris = dict.fromkeys(queries, 0)
-    for key, val in dict_queris.items():
-        # 접두 접미 확인
-        if key[0] != "?" and key[-1] == "?":
-            # 접두사            
-            # 길이 확인
-            for word in words:
-                if len(key) == len(word):
-                    # 문자 확인
-                    index = str(key).index("?")                    
-                    if key[:index] == word[:index]:
-                        dict_queris[key] += 1
+# def solution(words, queries):    
+#     dict_queris = dict.fromkeys(queries, 0)
+#     for key, val in dict_queris.items():
+#         # 접두 접미 확인
+#         if key[0] != "?" and key[-1] == "?":
+#             # 접두사            
+#             # 길이 확인
+#             for word in words:
+#                 if len(key) == len(word):
+#                     # 문자 확인
+#                     index = str(key).index("?")                    
+#                     if key[:index] == word[:index]:
+#                         dict_queris[key] += 1
 
-        elif key[0] == "?" and key[-1] != "?":
-            # 접미사
-            print(key, "접미사")
-            # 길이 확인
-            for word in words:
-                if len(key) == len(word):
-                    # 문자 확인
-                    index = key[::-1].index("?")                    
+#         elif key[0] == "?" and key[-1] != "?":
+#             # 접미사
+#             print(key, "접미사")
+#             # 길이 확인
+#             for word in words:
+#                 if len(key) == len(word):
+#                     # 문자 확인
+#                     index = key[::-1].index("?")                    
                     
-                    print(key[::-1][:index], word[::-1][:index])
-                    if key[::-1][:index] == word[::-1][:index]:
-                        dict_queris[key] += 1
-    return list(dict_queris.values())
+#                     print(key[::-1][:index], word[::-1][:index])
+#                     if key[::-1][:index] == word[::-1][:index]:
+#                         dict_queris[key] += 1
+#     return list(dict_queris.values())
  
-words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
-queries = ["fro??", "????o", "fr???", "fro???", "pro?", "fro??", "???me"]
-print(solution(words, queries))
+# words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
+# queries = ["fro??", "????o", "fr???", "fro???", "pro?", "fro??", "???me"]
+# print(solution(words, queries))
 
 # index = queries[1][::-1].index("?")
 # print(index)
 # print(queries[1][::-1][:index])
 
 # print(dict.fromkeys(queries, 0))
+
+
+import os
+import sys
+
+
+from collections import defaultdict
+
+class Trie:
+
+    def __init__(self):
+        self.root = {} # chr|visited
+
+    def insert(self, s):
+        cur = self.root
+        while s:
+            if s[0] not in cur: cur[s[0]] = [ {} , 0 ]
+            cur[s[0]][1] += 1
+            cur = cur[s[0]][0]
+            s = s[1:]
+
+    def find(self, s)->int:
+        cur = self.root; pre_v = 0
+        while s:
+            if s[0] == '?': return pre_v
+            else:
+                if s[0] not in cur: return 0
+                pre_v = cur[s[0]][1]; cur = cur[s[0]][0]
+            s = s[1:]
+
+        return pre_v
+
+
+def solution(words, queries):
+    prefix_dict = defaultdict(Trie)
+    suffix_dict = defaultdict(Trie)
+    len_dict = defaultdict(int)
+    result = []
+
+    for word in words:
+        prefix_dict[len(word)].insert(word)
+        suffix_dict[len(word)].insert(word[::-1])
+        len_dict[len(word)] += 1
+
+    for q in queries:
+        if q[0] == '?' and q[-1] == '?':
+            result.append(len_dict[len(q)])
+        elif q[-1] == '?': #preffix_query
+            result.append( prefix_dict[len(q)].find(q))
+        elif q[0] == '?': #suffix_query
+            result.append( suffix_dict[len(q)].find(q[::-1]) )
+        else:
+            print("IMPOSSIBLE", q)
+
+    return result
+
+words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
+queries = ["fro??", "????o", "fr???", "fro???", "pro?", "fro??", "???me"]
+print(solution(words, queries))
