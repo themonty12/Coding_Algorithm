@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T07:27:22.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="mOHdQzIkiTChQ2zijHyJ" version="14.7.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-01T07:27:48.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="k1UUTFJnfQn9BbsaVgML" version="14.7.3" type="github" pages="9">
   <diagram id="4JlzVTf0gYAeyRfgyS3g" name="Column">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1307,7 +1307,7 @@
         <mxCell id="kD7gEPF3riD1NAPIYo-M-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5YTunxx2UZgBGs-_PbQe-1" source="9Ucm9xqND2vhM0D2GEuD-3" target="kD7gEPF3riD1NAPIYo-M-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Ucm9xqND2vhM0D2GEuD-3" value="입력한 치수에 맞는 펜스 그리기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YTunxx2UZgBGs-_PbQe-1">
+        <mxCell id="9Ucm9xqND2vhM0D2GEuD-3" value="입력한 치수에 맞는&lt;br&gt;&amp;nbsp;펜스 그리기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YTunxx2UZgBGs-_PbQe-1">
           <mxGeometry x="340" y="494" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kD7gEPF3riD1NAPIYo-M-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5YTunxx2UZgBGs-_PbQe-1" source="kD7gEPF3riD1NAPIYo-M-0" target="kD7gEPF3riD1NAPIYo-M-7">
