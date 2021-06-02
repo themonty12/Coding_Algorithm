@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T06:52:05.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="i1JzhUoQD-_Guffd9uki" version="14.7.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-02T06:57:37.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0LjfACDxvrhfraVgwFIU" version="14.7.3" type="github" pages="5">
   <diagram id="O5Ubbc4KPzHLggqCSnH6" name="Hide_Unselected_Object">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -381,42 +381,93 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-1" value="Modify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="525" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="225" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-3" target="teDsJSnfirPffGYSc3je-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-3" value="객체 선택(Beam or Column 객체)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="525" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="225" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-4" value="submenu -&amp;gt; S-Plus -&amp;gt; Modify클릭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="510" y="200" width="150" height="40" as="geometry" />
+          <mxGeometry x="210" y="200" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-4" target="teDsJSnfirPffGYSc3je-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="320" as="sourcePoint" />
+            <mxPoint x="285" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-10" value="&lt;font style=&quot;font-size: 13px&quot;&gt;True&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-7" target="teDsJSnfirPffGYSc3je-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-7" value="선택한 객체가 같은&lt;br&gt;&amp;nbsp;Type인지 Check" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="512.5" y="280" width="145" height="70" as="geometry" />
+          <mxGeometry x="212.5" y="280" width="145" height="70" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-9" target="teDsJSnfirPffGYSc3je-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-9" value="Type == BEAM or&lt;br&gt;Type == COLUMN" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="515" y="390" width="140" height="80" as="geometry" />
+          <mxGeometry x="215" y="390" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teDsJSnfirPffGYSc3je-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-16" target="teDsJSnfirPffGYSc3je-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="teDsJSnfirPffGYSc3je-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-16" target="teDsJSnfirPffGYSc3je-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="600" />
+              <mxPoint x="440" y="600" />
+              <mxPoint x="440" y="40" />
+              <mxPoint x="625" y="40" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-16" value="수정할 치수 입력" style="whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="525" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="225" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-20" target="teDsJSnfirPffGYSc3je-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-20" target="teDsJSnfirPffGYSc3je-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="145" />
+              <mxPoint x="500" y="560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="teDsJSnfirPffGYSc3je-20" value="Sel.each" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
-          <mxGeometry x="525" y="600" width="120" height="50" as="geometry" />
+          <mxGeometry x="565" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-22" target="teDsJSnfirPffGYSc3je-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-22" value="component.&lt;br&gt;make_unique" style="whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
+          <mxGeometry x="565" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-24" target="teDsJSnfirPffGYSc3je-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-24" value="component.definition.&lt;br&gt;entities.clear!" style="whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
+          <mxGeometry x="565" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-26" target="teDsJSnfirPffGYSc3je-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-26" value="수정된 치수만큼&lt;br&gt;다시 그리기" style="whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
+          <mxGeometry x="565" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="O5IvHRvkss2Z4uPGCFOx-1" source="teDsJSnfirPffGYSc3je-28" target="teDsJSnfirPffGYSc3je-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="480" />
+              <mxPoint x="750" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-28" value="Attribute 추가" style="whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
+          <mxGeometry x="565" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsJSnfirPffGYSc3je-31" value="종료" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="O5IvHRvkss2Z4uPGCFOx-1">
+          <mxGeometry x="565" y="540" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
