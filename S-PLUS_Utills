@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T00:43:59.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bdh3jtjspvXxydVO2SBF" version="14.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-03T02:27:48.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="a-iRm1genUynU3nTm871" version="14.7.3" type="github" pages="8">
   <diagram id="O5Ubbc4KPzHLggqCSnH6" name="Hide_Unselected_Object">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -618,7 +618,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Dp41ChQPooyAqIAdb8hp" name="Divide_Copy">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="2O8wM6R9mB1Y5l23Amhy-0" />
         <mxCell id="2O8wM6R9mB1Y5l23Amhy-1" parent="2O8wM6R9mB1Y5l23Amhy-0" />
@@ -698,6 +698,77 @@
         </mxCell>
         <mxCell id="SCFUKQqvhsAzA36Gxt9X-24" value="종료" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2O8wM6R9mB1Y5l23Amhy-1">
           <mxGeometry x="540" y="450" width="120" height="46.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nFzVD3c7Od9Ini8keGbH" name="ReDefine">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="3hTUcUKJSRBhxQIdEpW5-0" />
+        <mxCell id="3hTUcUKJSRBhxQIdEpW5-1" parent="3hTUcUKJSRBhxQIdEpW5-0" />
+        <mxCell id="CLxX9N2UFeJ1yKTGX6rP-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="CLxX9N2UFeJ1yKTGX6rP-1" target="CLxX9N2UFeJ1yKTGX6rP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLxX9N2UFeJ1yKTGX6rP-1" value="ReDefine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="505" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="CLxX9N2UFeJ1yKTGX6rP-3" target="woRlSUA-7svxDoRhGrnO-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLxX9N2UFeJ1yKTGX6rP-3" value="Beam or Column 객체 길이 조정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="505" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-0" target="woRlSUA-7svxDoRhGrnO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-0" value="submenu -&amp;gt; S-Plus -&amp;gt;&lt;br&gt;ReDefine클릭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="490" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-6" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Column&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-3" target="woRlSUA-7svxDoRhGrnO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-3" target="woRlSUA-7svxDoRhGrnO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-9" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Beam&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-3" target="woRlSUA-7svxDoRhGrnO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-3" value="Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="505" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-5" target="woRlSUA-7svxDoRhGrnO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-5" value="Component Bounds Height값 찾기" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="750" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-7" target="woRlSUA-7svxDoRhGrnO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-7" value="윗 면 찾기" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="280" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-10" target="woRlSUA-7svxDoRhGrnO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-10" value="윗 면에서 가장 긴 선 찾기" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-12" target="woRlSUA-7svxDoRhGrnO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-12" value="선 길이로 Component이름 변경" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="280" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-14" value="Attribute 추가" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="505" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3hTUcUKJSRBhxQIdEpW5-1" source="woRlSUA-7svxDoRhGrnO-16" target="woRlSUA-7svxDoRhGrnO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woRlSUA-7svxDoRhGrnO-16" value="찾은 값으로 Component 이름 변경" style="whiteSpace=wrap;html=1;" vertex="1" parent="3hTUcUKJSRBhxQIdEpW5-1">
+          <mxGeometry x="750" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
