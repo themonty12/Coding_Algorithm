@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T04:56:25.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MbZJ9l2vPAXh_0gy8ETH" version="15.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-11-03T05:01:47.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="mFvAF2wpjKSCQTl8fHyw" version="15.2.7" type="github" pages="10">
   <diagram id="O5Ubbc4KPzHLggqCSnH6" name="Hide_Unselected_Object">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -846,6 +846,61 @@
         </mxCell>
         <mxCell id="5Rnlg6U2EWfIhf39aP6Z-21" value="Component.Definition 제거" style="whiteSpace=wrap;html=1;" vertex="1" parent="5Rnlg6U2EWfIhf39aP6Z-1">
           <mxGeometry x="717.5" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="obcEvoADBXbR_CHczQfe" name="Move Center">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="YSxgh9-9bgzw0yz0F7hk-0" />
+        <mxCell id="YSxgh9-9bgzw0yz0F7hk-1" parent="YSxgh9-9bgzw0yz0F7hk-0" />
+        <mxCell id="qLQ-3bP8BxasI2II-AVZ-0" value="Move Center" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="505" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" target="kW02sum6Kf2I_5lvhqpZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-1" target="kW02sum6Kf2I_5lvhqpZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-1" value="선택한 객체&lt;br&gt;Group 화" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="505" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-2" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-4" target="kW02sum6Kf2I_5lvhqpZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-3" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-4" target="kW02sum6Kf2I_5lvhqpZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-4" value="선택한 객체 수가&lt;br&gt;1보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="485" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-5" value="종료" style="whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="745" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-6" target="kW02sum6Kf2I_5lvhqpZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-6" value="기준 점 지정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="505" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-8" target="kW02sum6Kf2I_5lvhqpZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-8" value="이동할 두 점 지정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="705" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YSxgh9-9bgzw0yz0F7hk-1" source="kW02sum6Kf2I_5lvhqpZ-10" target="kW02sum6Kf2I_5lvhqpZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-10" value="두 점의&lt;br&gt;가운데 지점으로&lt;br&gt;Group 이동" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="705" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW02sum6Kf2I_5lvhqpZ-12" value="Group.explode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YSxgh9-9bgzw0yz0F7hk-1">
+          <mxGeometry x="505" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
